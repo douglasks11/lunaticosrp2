@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Lunaticos RP - 2.0</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" >
+    <link rel="icon" type="image/png" th:href="@{/img/LogoLunaticos.png}" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+   
+<video th:src="@{/video/backgroud-video2.mp4}" autoplay loop playsinline muted></video>
+
+<header class="viewport-header">
+  <h1 class="tipoFonte">
+    Lunaticos 
+    <span class="tipoFonte">RP 2.0</span>
+    <br>
+    <p class="flow-text">GTA V</p>
+    <br><br>
+      
+  </h1>
+  
+</header>
+ <ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img th:src="@{/img/logoLunaticos.png}" width="100%"/>
+     
+      </div>
+      <br><br>
+        <br>
+        <br><br>
+        <br>
+    </div></li>
+    <li><a th:href="@{https://discord.gg/H277CbJFSm}"><i class="fab fa-discord" style='font-size:24px; color:#6A5ACD'></i>Acesse nosso Discord</a></li>
+    
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Acesso Rapido</a></li>
+    <li><a class="waves-effect yellow" href="fivem://connect/191.96.224.60:30120">ENTRAR NA CIDADE</a></li>
+  </ul>
+  <center>
+  <a href="#" data-activates="slide-out" class="btn waves-effect waves-light btn-large black"><i class="material-icons">SAIBA +</i></a>
+  </center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+  $(".btn").sideNav();
+});
+  </script>
+  
+   
+</body>         
+</html>
