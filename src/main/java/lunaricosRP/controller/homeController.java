@@ -1,4 +1,4 @@
-package br.lunaticos.controller;
+package lunaricosRP.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
